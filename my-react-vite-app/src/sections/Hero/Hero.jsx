@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
-import styles from '/my-react-vite-app/src/sections/Hero/HeroStyles.module.css';
+import styles from '/src/sections/Hero/HeroStyles.module.css';
 import heroImg from '../../assets/profile.png';
 import sun from '../../assets/sun.svg';
 import moon from '../../assets/moon.svg';

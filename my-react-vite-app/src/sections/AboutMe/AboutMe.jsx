@@ -1,4 +1,4 @@
-import styles from '/my-react-vite-app/src/sections/AboutMe/AboutMeStyles.module.css';
+import styles from '/src/sections/AboutMe/AboutMeStyles.module.css';
 import moonbg from '../../assets/moon.png'; // Replace with your image path
 
 function AboutMe() {

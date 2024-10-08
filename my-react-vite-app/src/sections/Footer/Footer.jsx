@@ -1,4 +1,4 @@
-import styles from '/my-react-vite-app/src/sections/Footer/FooterStyles.module.css';
+import styles from '/src/sections/Footer/FooterStyles.module.css';
 
 function Footer() {
   return (

@@ -1,4 +1,4 @@
-import styles from '/my-react-vite-app/src/sections/Contact/ContactStyles.module.css';
+import styles from '/src/sections/Contact/ContactStyles.module.css';
 
 function Contact() {
   return (

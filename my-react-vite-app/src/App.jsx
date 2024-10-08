@@ -1,4 +1,4 @@
-import '/my-react-vite-app/src/App.css';
+import '/src/App.css';
 import AboutMe from './sections/AboutMe/AboutMe';
 import Contact from './sections/Contact/Contact';
 import Footer from './sections/Footer/Footer';

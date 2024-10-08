@@ -1,4 +1,4 @@
-import styles from '/my-react-vite-app/src/sections/Skills/SkillsStyles.module.css';
+import styles from '/src/sections/Skills/SkillsStyles.module.css';
 import checkMarkIconDark from '../../assets/checkmark-dark.svg';
 import checkMarkIconLight from '../../assets/checkmark-light.svg';
 import SkillList from '../../common/SkillList';

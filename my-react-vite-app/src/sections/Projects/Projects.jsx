@@ -1,4 +1,4 @@
-import styles from '/my-react-vite-app/src/sections/Projects/ProjectsStyles.module.css';
+import styles from '/src/sections/Projects/ProjectsStyles.module.css';
 import viberr from '../../assets/viberr.png';
 import freshBurger from '../../assets/fresh-burger.png';
 import hipsster from '../../assets/hipsster.png';
