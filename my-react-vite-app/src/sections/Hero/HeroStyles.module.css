@@ -283,9 +283,9 @@ button:active {
 
 
 
-/* Existing Media Queries... */
 
-/* Desktop */
+
+/* Tablet */
 @media screen and (min-width: 767px) and (max-width: 1023px) {
   header {
     background-color: var(--text-color);
@@ -525,26 +525,22 @@ button:active {
 
 @media only screen and (max-width: 767px) {
 
+  
   .container {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center; /* Align horizontally center */
     text-align: center;
     height: auto;
     min-height: 500px;
     margin-bottom: 10%;
   }
-  
-  .header{
-    height: 40px;
-    
-  }
 
   .hero {
     padding-top: 100px;
-    margin-left: 0; 
-    width: 100%; 
+    margin-left: 0; /* Set margin-left to 0 to center the hero image */
+    width: 80%; /* Adjust width to fit better on smaller screens */
   }
 
   .colorMode {
@@ -563,12 +559,12 @@ button:active {
   nav {
     position: fixed;
     display: none; /* Initially hidden */
-    padding-top: 50px;
-    width: 30%; 
-    margin-top: 100px; 
+    width: 80%; 
+    margin-top: 700px;
     right: 0;
-    margin-right: 20%;
-    height: 70dvh; /* Size of the nav */
+    margin-right: 15%;
+    margin-left: 5%;
+    height: 50dvh; /* Size of the nav */
     border: 3px solid #d60000;
     border-radius: 2rem;
     background-color: var(--text-color);
@@ -607,6 +603,7 @@ button:active {
     display: block;
     visibility: visible;
     opacity: 1;
+
     font-size: 1.8rem;
     color: var(--background-color);
     background: transparent;
@@ -617,6 +614,7 @@ button:active {
   }
 
 }
+
 
 
 
